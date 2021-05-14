@@ -147,11 +147,13 @@
   <ItemGroup>
     <ClCompile Include="Mandelbrot.cpp" />
     <ClCompile Include="PythagorasTree.cpp" />
+    <ClCompile Include="Sierpinsky.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Mandelbrot.h" />
     <ClInclude Include="PythagorasTree.h" />
+    <ClInclude Include="Sierpinsky.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

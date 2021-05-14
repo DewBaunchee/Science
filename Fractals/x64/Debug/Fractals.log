@@ -1,14 +1,2 @@
-﻿  PythagorasTree.cpp
-D:\University\Science\Fractals\PythagorasTree.cpp(12,39): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
-          with
-          [
-              T=float
-          ]
-D:\University\Science\Fractals\PythagorasTree.cpp(15,14): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-D:\University\Science\Fractals\PythagorasTree.cpp(28,5): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-D:\University\Science\Fractals\PythagorasTree.cpp(27,5): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-D:\University\Science\Fractals\PythagorasTree.cpp(32,5): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-D:\University\Science\Fractals\PythagorasTree.cpp(31,5): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-  Source.cpp
-  Создание кода...
+﻿  Source.cpp
   Fractals.vcxproj -> D:\University\Science\Fractals\x64\Debug\Fractals.exe

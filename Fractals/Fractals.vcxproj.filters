@@ -24,12 +24,18 @@
     <ClCompile Include="PythagorasTree.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Sierpinsky.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Mandelbrot.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="PythagorasTree.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Sierpinsky.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

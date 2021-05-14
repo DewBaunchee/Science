@@ -1,11 +1,17 @@
 #include <SFML/Graphics.hpp>
 #include "Mandelbrot.h"
 #include "PythagorasTree.h"
+#include "Sierpinsky.h"
 #include <iostream>
 int main()
 {
     sf::RenderWindow window(sf::VideoMode(1800, 900), "SFML works!");
-    PythagorasTree tree(&window);
+    sf::Vector2f points[3] = {
+        sf::Vector2f(100, 100),
+        sf::Vector2f(100, 700),
+        sf::Vector2f(1000, 700)
+    };
+    Sierpinsky tri(&window);
 
     while (window.isOpen())
     {
@@ -16,8 +22,8 @@ int main()
                 window.close();
         }
 
-        window.clear();
-        tree.draw(15, 1000, 700, 100, -90);
+        window.clear(sf::Color::White);
+        tri.draw(8, points);
         window.display();
     }
 
