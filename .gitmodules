@@ -1,0 +1,9 @@
+[submodule "Fractals"]
+	path = Fractals
+	url = https://github.com/DewBaunchee/Fractals
+[submodule "RayTracing"]
+	path = RayTracing
+	url = https://github.com/DewBaunchee/RayTracing
+[submodule "CellularAutomata"]
+	path = CellularAutomata
+	url = https://github.com/DewBaunchee/CellularAutomata
