@@ -1,2 +1,0 @@
-D:\University\Science\Fractals\x64\Debug\Fractals.exe
-D:\University\Science\Fractals\x64\Debug\Fractals.pdb
